@@ -9,19 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.traffic-container{
+.traffic-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.traffic-container .traffic-pole{
+
+.traffic-container .traffic-pole {
     border: 1px solid black;
     background-color: black;
     height: 170px;
-    width: 13px;
+    width: 16px;
 }
-.traffic-container .traffic-light{
+
+.traffic-container .traffic-light {
     border: 1px solid black;
     border-radius: 10px;
     background-color: black;
@@ -30,22 +32,31 @@
     gap: 10px;
     flex-direction: column;
 }
-.traffic-container .traffic-light > div{
+
+.traffic-container .traffic-light>div {
     height: 80px;
     width: 80px;
     border-radius: 100%;
 
 }
-.light-red{
+
+.light-red {
     background-color: red;
 }
-.light-yellow{
+
+.light-yellow {
     background-color: yellow;
 }
-.light-green{
+
+.light-green {
     background-color: green;
 }
-.on{
+
+.light-purple {
+    background-color: purple;
+}
+
+.on {
     opacity: .7;
-    box-shadow: 0px 0px 31px 35px rgba(255,253,87,1);
+    box-shadow: 0px 0px 31px 35px rgba(255, 253, 87, 1);
 }

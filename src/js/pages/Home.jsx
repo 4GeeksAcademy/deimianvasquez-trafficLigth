@@ -2,12 +2,12 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import { TrafficLight } from "../components/TrafficLight";
+import { TrafficLightRefactor } from "../components/TrafficLightRefactor";
 
 //create your first component
 const Home = () => {
 	return (
-		<TrafficLight text="texto de prueba de proptypes" />
+		<TrafficLightRefactor />
 	);
 };
 
